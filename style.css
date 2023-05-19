@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.card {
+    border: 9px solid rgb(197, 192, 192);
+    background-color: #fff;
+    height: 650px;
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.inside {
+    height: 600px;
+    width: 600px;
+    margin: 15px 15px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.content {
+    padding: 50px 50px;
+    line-height: 1.8;
+    margin: 15px 15px;
+}
+
+.content h3{
+    color: grey;
+}
+.field p {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.field input {
+    height: 50px;
+    width: 440px;
+    border-radius: 10px;
+    border: 2px solid #d6d1d1;
+    box-shadow: 2px 2px 2px #d6cbcb;
+    text-align: center;
+    font-weight: bold;
+}
+
+.validation{
+    display: flex;
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+.validation .left{
+    margin-left: 15px;
+}
+
+
+
+button {
+    width: 440px;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid blue;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 30px;
+}
